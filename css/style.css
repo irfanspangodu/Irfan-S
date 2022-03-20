@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  opacity: .85;
+}
+
+body {
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+p {
+  font-size: 18px;
+  color: #222;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  max-width: 1320px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#home {
+  background: #fead42;
+  width: 100%;
+}
+
+#home header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 1%;
+}
+
+#home header h1.left {
+  width: 100px;
+  display: block;
+}
+
+#home header h1.left a {
+  display: block;
+}
+
+#home header h1.left a img {
+  width: 100%;
+  display: block;
+}
+
+#home header nav.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home header nav.menu ul li {
+  margin-right: 75px;
+}
+
+#home header nav.menu ul li a {
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+#home header nav.menu ul li:last-child {
+  margin-right: 0;
+}
+
+#home div.content {
+  text-align: center;
+  color: #fff;
+  padding: 120px 0 100px;
+}
+
+#home div.content h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#home div.content p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#home div.content a.button {
+  background: #222;
+  display: inline-block;
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
